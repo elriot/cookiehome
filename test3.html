@@ -17,12 +17,10 @@ $(document).ready( function() {
 function loadImage(){
     var url = window.location.href;
     var imageUrl = document.getElementById("img").src;
-    if(url.indexOf("git") > -1){
+    if(imageUrl.indexOf("git") > -1){
         imageUrl = "https://github.com/elriot/cookiehome/blob/main/"+imageUrl;
         document.getElementById("img").src = imageUrl;
     }
-    /*https://raw.githubusercontent.com/elriot/cookiehome/main/image/1.JPEG*/
-
 }
 </script>
 </html>
