@@ -8,11 +8,21 @@
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <image></image>
-        <img src="image/3.jpeg" alt="1" width="500" height="600">
+        <img id="img" src="/image/3.jpeg" alt="1" width="500" height="600">
     <script>
     $(document).ready( function() {
         $("#header").load("header.html");
+        loadImage();
     });
+    function loadImage(){
+        var url = window.location.href;
+        var imageUrl = "image/3.jpeg";
+        if(url.indexOf("git") > -1){
+            
+        }
+        /*https://raw.githubusercontent.com/elriot/cookiehome/main/image/1.JPEG*/
+        
+    }
     </script>
 </body>
 </html>
