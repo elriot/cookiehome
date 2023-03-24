@@ -72,5 +72,90 @@ header {
 .mainmenu .menu-list .menu-item a{
     color:black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 19px;
+}
+.mainpage{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+/*    background: yellow;*/
+    position: relative;
+}
+.mainpage{
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.mainpage img{
+    width : 130%;
+}
+.mainpage .cover{
+    font-weight: 900;
+    font-size: 60px;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    color: #fff;
+    text-shadow: 3px 3px 3px #151515;    
+}
+.mainpage .cover.text1{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.mainpage .cover.text2{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+}
+.mainpage .cover.text3{
+    position: absolute;
+    top: 1150px;
+}
+.mainpage .cover.text4{
+    position: absolute;
+    top: 1300px;
+    font-size: 25px;
+    text-align: center;
+}
+.mainpage .button{
+    display: inline-block;
+    padding: 10px 50px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.mainpage .button.btn1{
+    transition: 0.5s ease-out;
+    position: absolute;
+    top:1450px;
+    cursor: pointer;
+}
+.mainpage .button.btn1:hover{
+    transition: 0.5s ease-out;
+    background: white;
+    color:black;
+}
+footer{
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    height: 100px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #212121;
+    text-align: center;
+}
+footer address, footer contact, footer company {
+    display: block;
+    font-style: normal;
 }
